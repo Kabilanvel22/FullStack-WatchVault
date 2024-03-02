@@ -1,0 +1,119 @@
+#add_body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2f2f2;
+    background-image: url('https://cdn.wallpapersafari.com/58/59/AK6PvE.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  
+  .add-form {
+    background-color: #fff;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    border-radius: 5px;
+    animation: fadeIn 0.5s ease-in-out;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    margin: 20px; /* Add margin property here */
+    backdrop-filter: blur(1px); /* Add the blur effect */
+  background: transparent;
+  }
+  
+  
+  .add_container {
+    text-align: center;
+  }
+  
+  .add_header {
+    margin-bottom: 20px;
+  }
+  
+  .add_header h1 {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+  
+  .add_header p {
+    padding: 5%;
+    font-size: 14px;
+  }
+  
+  .add_value {
+    margin-bottom: 15px;
+    padding-right: 20px;
+  }
+  
+  .add_value input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    outline: none;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  .add_value input[type="text"]:focus,
+  .add_value input[type="number"]:focus {
+    border-color: #3399ff;
+  }
+  
+  .e-add-btn {
+    width: 90%;
+    padding: 10px 0;
+    background-color: #3399ff;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    padding-right: 20%;
+    margin-right: 7%;
+  }
+  
+  .e-add-btn:hover {
+    background-color: #0080ff;
+  }
+  
+  .e-exit-btn {
+    margin-top: 10px;
+    padding: 10px 5px;
+    background-color: #ccc;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    margin-right: 12%;
+   
+  }
+  
+  .e-exit-btn:hover {
+    background-color: #999;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .add-form {
+      width: 100%;
+      max-width: 400px;
+    }
+  }
+  

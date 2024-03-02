@@ -1,0 +1,127 @@
+/* styles.css */
+
+/* Base styles */
+#login_body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('https://cdn.wallpapersafari.com/58/59/AK6PvE.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.login-form {
+  max-width: 400px;
+  width: 60%; /* Increase the width of the form */
+  padding: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding-right: 40px; /* Increase the margin size */
+  background-color: lightblue;
+  background-size: cover;
+  opacity: 0.9;
+  backdrop-filter: blur(1px); /* Add the blur effect */
+  background: transparent;
+}
+
+.login_container {
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.login_header {
+  margin-bottom: 20px;
+}
+
+.log_title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.log_cred {
+  font-size: 14px;
+}
+
+.log_form {
+  margin-bottom: 20px;
+}
+
+.form_input {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.form_input i {
+  position: absolute;
+  top: 50%;
+  left: 12px;
+  transform: translateY(-50%);
+  color: #999;
+}
+
+.login_name,
+.login_password {
+  padding-left: 30px;
+  padding: 10px;
+  width: 100%;
+}
+
+.signup-btn {
+  display: block;
+  width: 20%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-left: 40%;
+}
+
+.signup-btn:hover {
+  background-color: #0056b3;
+}
+
+.registerbtn {
+  font-size: 14px;
+  text-align: center;
+}
+
+.registerbtn a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+/* Transparency */
+#login_body {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* Responsive styles */
+@media screen and (max-width: 600px) {
+  .login_container {
+    margin: 10px;
+  }
+}
+
+/* Animation styles */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.login_container {
+  animation: fadeIn 0.5s ease-in-out;
+}

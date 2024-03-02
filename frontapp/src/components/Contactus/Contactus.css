@@ -1,0 +1,56 @@
+.contactdiv{
+    background-color: rgb(32, 33, 32);
+    font-family: 'Times New Roman', Times, serif;
+    color: wheat;
+}
+.contact_det{
+    text-align: center;
+    padding-top: 2%;
+}
+.contact_info{
+    float: left;
+    margin-left: 4%;
+}
+.contact_add{
+   float: right;
+}
+.in_mail{
+    padding-right: 5%;
+}
+.in_call{
+    padding-right: 5%;
+}
+.in_what{
+    padding-right: 5%;
+}
+.contactaddress{
+    margin-right: 15%;
+}
+.address{
+    margin-right: 15%;
+}
+.contactlink{
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10%;
+    margin-left: 35%;
+
+}
+.social{
+    width: 2%;
+    padding-bottom: 1%;
+    margin-left: 30%;
+    display: grid;
+    text-align: center;
+}
+.soc_twit{
+    margin-left: 45%;
+}
+.soc_inst{
+    margin-left: 2%;
+}
+.soc_you{
+    margin-left: 2%;
+}
+.soc_face{
+    margin-left: 2%;
+}

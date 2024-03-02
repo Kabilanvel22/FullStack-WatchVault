@@ -1,0 +1,65 @@
+#signup_body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('https://cdn.wallpapersafari.com/58/59/AK6PvE.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.signup-form {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  backdrop-filter: blur(1px); /* Add the blur effect */
+  background: transparent;
+}
+
+.signup_container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.signup_header {
+  margin-bottom: 20px;
+}
+
+.signup_form {
+  display: flex;
+  flex-direction: column;
+}
+
+.sign_input {
+  margin-bottom: 20px;
+}
+
+.sign-btn {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: #ff0000; /* Update the color as per your preference */
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 100%;
+}
+
+
+.log_btn {
+  margin-top: 20px;
+}
+
+/* Responsive CSS */
+
+@media (max-width: 600px) {
+  .signup-form {
+    max-width: 300px;
+  }
+}
